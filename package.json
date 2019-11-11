@@ -1,0 +1,22 @@
+{
+  "name": "test-ui-ayham-da",
+  "version": "1.0.0",
+  "description": "Projekt für Test im UI Modul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbw9dus/test-ui-ayham-da.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbw9dus/test-ui-ayham-da/issues"
+  },
+  "homepage": "https://github.com/fbw9dus/test-ui-ayham-da#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

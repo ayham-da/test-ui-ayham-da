@@ -1,0 +1,56 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
+
+
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";
+ body{
+     max-height: 100%;
+ }
+ 
+ .main{
+     background-image: url(/images/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 20px;
+     text-align: start;
+     
+
+ }
+ 
+ .main-left{
+     margin-top: 130px;
+     margin-bottom: 10px;
+    padding: 50px !important;
+    margin-left: 0px !important;
+     
+ }
+ .main-reight{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: cornsilk !important;
+    max-width: 450px !important;
+    margin-left: 0px !important;
+   
+    
+}
+form{
+    margin-top: 50px !important;
+    padding: 10px !important;
+
+}
+.text-discreption{
+    background-color: rgb(202, 200, 200);
+    margin: 0px !important;
+    padding: 5px;
+}
+.header{
+    display: block;
+}
