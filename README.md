@@ -19,14 +19,28 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   45/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
+- [x] (5) Elemente passen sich nicht an Fensterbreite an
+```diff
+- Der Text-Bereich ist bei manchen Auflösungen zu schmal
+- Die Elemente der Menüleiste werden in mobile untereinanderdargestellt
+```
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
 - [_] (5) Block-Tag in Inline-Tag
-- [_] (5) Kinder-Tags im Code nicht eingerückt
+- [x] (5) Kinder-Tags im Code nicht eingerückt
+```diff
+- Zwischen Zeilen 59 und 79 ist schwer zu erkennen, welche Tags Eltern und welche Kinder sind
+```
 - [_] (10) Zweckfremde Tags verwendet
-- [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
+- [x] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
+```diff
+- title-Tag fehlt
+- <meta charset="UTF-8"> fehlt
+```
 - [_] (5) Falsche Datei-Pfade
+```diff
+- Das Hintergrundbild hat einen absoluten Pfad und wird deshalb nur geladen, wenn die Seite auf einem (Live-)Server läuft
+```
 - [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
 - [_] (5) Fehlende essentielle Tag-Attribute
